@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "nodemon --exec npm start",
     "dev": "nodemon --exec npm start"
   },
   "author": "Mark Campbell",
